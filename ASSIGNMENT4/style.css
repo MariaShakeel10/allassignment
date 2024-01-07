@@ -1,0 +1,10 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1,h3,h5,ul,h2 {
+    background-color: bisque;
+    text-align: center;
+}
+.abt{background-color: bisque;text-align: center;
+}
