@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUR REVIEW</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>
+            <h3>Your Review</h3>
+        </legend>
+        <label for="hear">
+            <h5>How did you hear about us?</h5>
+        </label>
+        <select name="hear" id="hear">
+            <option value="none">Select your option</option>
+            <option value="facebook">facebook</option>
+            <option value="instagram">instagram</option>
+            <option value="Linkedin">Linkedin</option>
+            <option value="other">other</option>
+        </select>
+        <label for="visit">
+            <h5>Would you visit us again?</h5>
+        </label>
+        <input type="radio" name="visit" value="yes">Yes
+        <input type="radio" name="visit" value="no">No
+        <input type="radio" name="visit" value="maybe">Maybe
+        <label for="comment">
+            <h5>Comments:</h5>
+        </label>
+        <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+        <label for="document">
+            <h5>Documents:</h5>
+        </label>
+        <input type="file" name="file" id="document">
+        <p>
+            <input type="checkbox" name="sign" checked>Sign me up for email updates
+        </p>
+        <button>
+            <a href="./step2.html"><img src="./images/back.png" alt="" width="150px" height="80px"></a>
+            <a href="./submit.html">
+                <img src="./images/submit.png" alt="" width="150px" height="80px"></a>
+        </button>
+    </fieldset>
+    <style>
+        body {
+            background-image: url(./images/backgroundimg.jpg);
+            background-position: top;
+        }
+
+        fieldset {
+            width: 1000px;
+        }
+    </style>
+</body>
+
+</html>
