@@ -1,0 +1,31 @@
+marquee>h1{
+    color: crimson;
+    text-decoration: underline;
+}
+table {
+    width: 100%;
+}
+
+.pink {
+    background-color: palevioletred;
+}
+
+.blue {
+    background-color: rgba(0, 0, 255, 0.751);
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.purple {
+    background-color: blueviolet;
+}
+
+.green {
+    background-color: rgba(29, 213, 29, 0.922);
+}
+
+.red {
+    background-color: rgba(255, 0, 0, 0.807);
+}
